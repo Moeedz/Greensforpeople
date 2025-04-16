@@ -19,7 +19,7 @@
     "color_primary_navigation": "#ffffff",
     "color_primary_navigation_hover": "#ffffff",
     "header-bg-color": "#526050",
-    "header-border-color": "#fff",
+    "header-border-color": "rgba(0,0,0,0)",
     "header-transparent-background": "#323131",
     "mobile-menu-text": "#323131",
     "mobile-menu-text-hover": "#757575",
