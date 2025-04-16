@@ -68,6 +68,9 @@
         "text_RfyQAE",
         "text_9jw6cY"
       ],
+      "custom_css": [
+        ".announcement-bar__link {padding-left: 0 !important; padding-right: 0 !important;}"
+      ],
       "name": "SS - Scrolling Announcement Bar",
       "settings": {
         "insert_css_class_target": "",
