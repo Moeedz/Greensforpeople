@@ -47,9 +47,46 @@
         "slide_navigation_style": "bars",
         "slide_transition_delay": 7
       }
+    },
+    "ss_scrolling_announcement_bar_EcJr4T": {
+      "type": "ss-scrolling-announcement-bar",
+      "blocks": {
+        "text_RfyQAE": {
+          "type": "text",
+          "settings": {
+            "text": "Free Shipping"
+          }
+        },
+        "text_9jw6cY": {
+          "type": "text",
+          "settings": {
+            "text": "Free Returns"
+          }
+        }
+      },
+      "block_order": [
+        "text_RfyQAE",
+        "text_9jw6cY"
+      ],
+      "name": "SS - Scrolling Announcement Bar",
+      "settings": {
+        "insert_css_class_target": "",
+        "text_size": 12,
+        "ss_font_family": "montserrat_n4",
+        "link": "",
+        "animation_duration": 44,
+        "animation_direction": "right",
+        "pause_hover": false,
+        "bg": "#000000",
+        "text_color": "#fff",
+        "hover_opacity": 90,
+        "padding_horizontal": 2,
+        "padding_vertical": 1.5
+      }
     }
   },
   "order": [
-    "image_slideshow_8ijpMy"
+    "image_slideshow_8ijpMy",
+    "ss_scrolling_announcement_bar_EcJr4T"
   ]
 }
