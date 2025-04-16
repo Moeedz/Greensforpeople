@@ -77,16 +77,76 @@
         "animation_duration": 34,
         "animation_direction": "right",
         "pause_hover": false,
-        "bg": "#526050",
+        "bg": "#768f72",
         "text_color": "#fff",
         "hover_opacity": 88,
         "padding_horizontal": 2,
         "padding_vertical": 1.5
       }
+    },
+    "image_gallery_y3i7QV": {
+      "type": "image--gallery",
+      "blocks": {
+        "image_QMQai6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/500x500-dummy-image.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_GpiNYr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/500x500-dummy-image_cb0f6924-6c38-43e8-83ca-9a7bc2a8f7ab.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        },
+        "image_QB7qdB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/500x500-dummy-image_a2ffdaf9-1ee4-4893-9bb2-9f3c9ffb04d3.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#262428",
+            "overlay_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_QMQai6",
+        "image_GpiNYr",
+        "image_QB7qdB"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "colors": "light",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": false,
+        "section-width": "full",
+        "content-position": "hide"
+      }
     }
   },
   "order": [
     "image_slideshow_8ijpMy",
-    "ss_scrolling_announcement_bar_EcJr4T"
+    "ss_scrolling_announcement_bar_EcJr4T",
+    "image_gallery_y3i7QV"
   ]
 }
