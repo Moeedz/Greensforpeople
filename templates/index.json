@@ -87,65 +87,6 @@
         "padding_vertical": 1.5
       }
     },
-    "image_gallery_y3i7QV": {
-      "type": "image--gallery",
-      "blocks": {
-        "image_QMQai6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/500x500-dummy-image.jpg",
-            "link": "",
-            "title": "",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_font_color": "#262428",
-            "overlay_color": "#ffffff"
-          }
-        },
-        "image_GpiNYr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/500x500-dummy-image_cb0f6924-6c38-43e8-83ca-9a7bc2a8f7ab.jpg",
-            "link": "",
-            "title": "",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_font_color": "#262428",
-            "overlay_color": "#ffffff"
-          }
-        },
-        "image_QB7qdB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/500x500-dummy-image_a2ffdaf9-1ee4-4893-9bb2-9f3c9ffb04d3.jpg",
-            "link": "",
-            "title": "",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_font_color": "#262428",
-            "overlay_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "image_QMQai6",
-        "image_GpiNYr",
-        "image_QB7qdB"
-      ],
-      "name": "t:sections.image--gallery.presets.name",
-      "settings": {
-        "colors": "light",
-        "title": "",
-        "richtext": "",
-        "remove-spacing": true,
-        "full-width": false,
-        "section-width": "full",
-        "content-position": "hide"
-      }
-    },
     "collection_featured_collection_3HYbBB": {
       "type": "collection--featured-collection",
       "blocks": {
@@ -181,7 +122,7 @@
       ],
       "name": "t:sections.collection--featured-collection.presets.name",
       "settings": {
-        "rows": 2,
+        "rows": 1,
         "grid-desktop": 4,
         "grid-mobile": "2",
         "colors": "white",
@@ -257,6 +198,7 @@
         "slide_HTjeaP",
         "slide_BtemXX"
       ],
+      "disabled": true,
       "name": "SS - Testimonial #8",
       "settings": {
         "heading": "Our customers tell it better than we do!",
@@ -350,31 +292,31 @@
         "button_padding_horizontal": 16,
         "button_radius": 8,
         "button_border_thickness": 0,
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#FFFFFF",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
         "button_bg_color": "#000000",
         "button_bg_hover_color": "#000000",
         "button_border_color": "#000000",
         "button_border_hover_color": "#000000",
-        "card_bg_color": "#FFFFFF",
+        "card_bg_color": "#ffffff",
         "card_border_color": "#000000",
-        "card_shadow_color": "#00B67A",
+        "card_shadow_color": "#00b67a",
         "card_heading_color": "#000000",
         "card_text_color": "#000000",
         "card_author_date_text_color": "#000000",
         "arrow_color": "#000000",
         "arrow_hover_color": "#000000",
-        "arrow_bg_color": "#FFFFFF",
-        "arrow_bg_hover_color": "#FFFFFF",
-        "arrow_border_color": "#FFFFFF",
-        "arrow_border_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
         "dots_color": "#000000",
         "heading_color": "#000000",
         "rating_text_color": "#000000",
-        "stars_bg_color": "#00B67A",
-        "stars_color": "#FFFFFF",
+        "stars_bg_color": "#00b67a",
+        "stars_color": "#ffffff",
         "text_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "linear-gradient(180deg, rgba(118, 143, 114, 1), rgba(241, 241, 241, 1) 100%)",
         "border_color": "#000000",
         "margin_top": 0,
@@ -388,13 +330,79 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "image_image_with_text_TWyRYp": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_image_with_text_6Kd3Rd": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "right",
+        "text_alignment": "right",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_image_with_text_MbTijH": {
+      "type": "image--image-with-text",
+      "custom_css": [
+        ".img {padding-top: 50px;}"
+      ],
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "image_image_with_text_tyegyJ": {
+      "type": "image--image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "colors": "white",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "right",
+        "text_alignment": "right",
+        "title": "Share brand or product details",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "image_slideshow_8ijpMy",
     "ss_scrolling_announcement_bar_EcJr4T",
-    "image_gallery_y3i7QV",
     "collection_featured_collection_3HYbBB",
-    "ss_testimonial_8_GCw9Ah"
+    "ss_testimonial_8_GCw9Ah",
+    "image_image_with_text_TWyRYp",
+    "image_image_with_text_6Kd3Rd",
+    "image_image_with_text_MbTijH",
+    "image_image_with_text_tyegyJ"
   ]
 }
