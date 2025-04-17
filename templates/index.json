@@ -332,6 +332,7 @@
       "type": "image--image-with-text",
       "settings": {
         "colors": "white",
+        "image": "shopify://shop_images/Skincare-banner.png",
         "text_overlapping_image": false,
         "section-width": "full",
         "layout": "left",
@@ -346,6 +347,7 @@
       "type": "image--image-with-text",
       "settings": {
         "colors": "white",
+        "image": "shopify://shop_images/all-website-banners.png",
         "text_overlapping_image": false,
         "section-width": "full",
         "layout": "right",
@@ -407,6 +409,7 @@
       ],
       "settings": {
         "colors": "white",
+        "image": "shopify://shop_images/all-website-baners-2.png",
         "text_overlapping_image": false,
         "section-width": "full",
         "layout": "left",
