@@ -130,50 +130,6 @@
         "show_view_all": false
       }
     },
-    "collection_featured_collection_Rj6itM": {
-      "type": "collection--featured-collection",
-      "blocks": {
-        "product_card_image_Aw7gHX": {
-          "type": "product_card_image",
-          "settings": {
-            "enable_quick_shop": false,
-            "disable_quick_shop_mobile": true
-          }
-        },
-        "product_card_title_ELCaWg": {
-          "type": "product_card_title",
-          "settings": {
-            "product_card_title__font": "body"
-          }
-        },
-        "product_card_price_fzdhMw": {
-          "type": "product_card_price",
-          "settings": {
-            "product_card_price__font": "body"
-          }
-        },
-        "product_card_quick_shop_9XqBUx": {
-          "type": "product_card_quick_shop",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "product_card_image_Aw7gHX",
-        "product_card_title_ELCaWg",
-        "product_card_price_fzdhMw",
-        "product_card_quick_shop_9XqBUx"
-      ],
-      "settings": {
-        "rows": 1,
-        "grid-desktop": 4,
-        "grid-mobile": "2",
-        "colors": "white",
-        "title": "Formulas",
-        "richtext": "",
-        "collection": "",
-        "show_view_all": false
-      }
-    },
     "ss_testimonial_8_GCw9Ah": {
       "type": "ss-testimonial-8",
       "blocks": {
@@ -400,6 +356,50 @@
         "button_link": ""
       }
     },
+    "collection_featured_collection_Rj6itM": {
+      "type": "collection--featured-collection",
+      "blocks": {
+        "product_card_image_Aw7gHX": {
+          "type": "product_card_image",
+          "settings": {
+            "enable_quick_shop": false,
+            "disable_quick_shop_mobile": true
+          }
+        },
+        "product_card_title_ELCaWg": {
+          "type": "product_card_title",
+          "settings": {
+            "product_card_title__font": "body"
+          }
+        },
+        "product_card_price_fzdhMw": {
+          "type": "product_card_price",
+          "settings": {
+            "product_card_price__font": "body"
+          }
+        },
+        "product_card_quick_shop_9XqBUx": {
+          "type": "product_card_quick_shop",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_card_image_Aw7gHX",
+        "product_card_title_ELCaWg",
+        "product_card_price_fzdhMw",
+        "product_card_quick_shop_9XqBUx"
+      ],
+      "settings": {
+        "rows": 1,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white",
+        "title": "Formulas",
+        "richtext": "",
+        "collection": "",
+        "show_view_all": false
+      }
+    },
     "image_image_with_text_MbTijH": {
       "type": "image--image-with-text",
       "custom_css": [
@@ -421,11 +421,12 @@
       "type": "image--image-with-text",
       "settings": {
         "colors": "white",
+        "image": "shopify://shop_images/Bomen-banner.png",
         "text_overlapping_image": false,
         "section-width": "full",
         "layout": "right",
         "text_alignment": "right",
-        "title": "Every t[h]ree orders",
+        "title": "",
         "text": "<p>At <strong>Greens</strong>, we believe skincare should not only care for you—but also for the world around you. </p><p>That’s why for every <strong>3</strong>, we plant <strong>one tree</strong>. No gimmicks, just a small step toward a greener planet.</p><p>Because contributing to more <strong>Greens</strong> in the future?<br/><br/>That’s part of the mission.</p><p>Simple. Honest. Green. 🌳</p>",
         "button_label": "",
         "button_link": ""
