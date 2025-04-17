@@ -393,6 +393,59 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "text_testimonials_M3bJaV": {
+      "type": "text--testimonials",
+      "blocks": {
+        "text_qea9NG": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
+            "customer_name": "John Smith",
+            "link": "",
+            "stars": 5
+          }
+        },
+        "text_xxdjaa": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
+            "customer_name": "John Smith",
+            "link": "",
+            "stars": 5
+          }
+        },
+        "text_dUPp3M": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
+            "customer_name": "John Smith",
+            "link": "",
+            "stars": 5
+          }
+        },
+        "text_FhheCz": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>\"Show off incredible feedback from your customers\"</p>",
+            "customer_name": "John Smith",
+            "link": "",
+            "stars": 5
+          }
+        }
+      },
+      "block_order": [
+        "text_qea9NG",
+        "text_xxdjaa",
+        "text_dUPp3M",
+        "text_FhheCz"
+      ],
+      "name": "t:sections.text--testimonials.presets.name",
+      "settings": {
+        "colors": "white",
+        "circle_images": true,
+        "title": "Testimonials"
+      }
     }
   },
   "order": [
@@ -403,6 +456,7 @@
     "image_image_with_text_TWyRYp",
     "image_image_with_text_6Kd3Rd",
     "image_image_with_text_MbTijH",
-    "image_image_with_text_tyegyJ"
+    "image_image_with_text_tyegyJ",
+    "text_testimonials_M3bJaV"
   ]
 }
