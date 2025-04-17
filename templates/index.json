@@ -71,7 +71,6 @@
       "custom_css": [
         ".announcement-bar__link {padding-left: 0 !important; padding-right: 0 !important;}"
       ],
-      "name": "SS - Scrolling Announcement Bar",
       "settings": {
         "insert_css_class_target": "",
         "text_size": 12,
@@ -120,7 +119,50 @@
         "product_card_price_qx8Eh3",
         "product_card_quick_shop_ttaA7J"
       ],
-      "name": "t:sections.collection--featured-collection.presets.name",
+      "settings": {
+        "rows": 1,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white",
+        "title": "Formulas",
+        "richtext": "",
+        "collection": "",
+        "show_view_all": false
+      }
+    },
+    "collection_featured_collection_Rj6itM": {
+      "type": "collection--featured-collection",
+      "blocks": {
+        "product_card_image_Aw7gHX": {
+          "type": "product_card_image",
+          "settings": {
+            "enable_quick_shop": false,
+            "disable_quick_shop_mobile": true
+          }
+        },
+        "product_card_title_ELCaWg": {
+          "type": "product_card_title",
+          "settings": {
+            "product_card_title__font": "body"
+          }
+        },
+        "product_card_price_fzdhMw": {
+          "type": "product_card_price",
+          "settings": {
+            "product_card_price__font": "body"
+          }
+        },
+        "product_card_quick_shop_9XqBUx": {
+          "type": "product_card_quick_shop",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_card_image_Aw7gHX",
+        "product_card_title_ELCaWg",
+        "product_card_price_fzdhMw",
+        "product_card_quick_shop_9XqBUx"
+      ],
       "settings": {
         "rows": 1,
         "grid-desktop": 4,
@@ -199,7 +241,6 @@
         "slide_BtemXX"
       ],
       "disabled": true,
-      "name": "SS - Testimonial #8",
       "settings": {
         "heading": "Our customers tell it better than we do!",
         "heading_custom": false,
@@ -333,7 +374,6 @@
     },
     "image_image_with_text_TWyRYp": {
       "type": "image--image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
         "text_overlapping_image": false,
@@ -348,7 +388,6 @@
     },
     "image_image_with_text_6Kd3Rd": {
       "type": "image--image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
         "text_overlapping_image": false,
@@ -366,7 +405,6 @@
       "custom_css": [
         ".img {padding-top: 50px;}"
       ],
-      "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
         "text_overlapping_image": false,
@@ -381,7 +419,6 @@
     },
     "image_image_with_text_tyegyJ": {
       "type": "image--image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
         "colors": "white",
         "text_overlapping_image": false,
@@ -440,7 +477,6 @@
         "text_dUPp3M",
         "text_FhheCz"
       ],
-      "name": "t:sections.text--testimonials.presets.name",
       "settings": {
         "colors": "white",
         "circle_images": true,
@@ -455,6 +491,7 @@
     "ss_testimonial_8_GCw9Ah",
     "image_image_with_text_TWyRYp",
     "image_image_with_text_6Kd3Rd",
+    "collection_featured_collection_Rj6itM",
     "image_image_with_text_MbTijH",
     "image_image_with_text_tyegyJ",
     "text_testimonials_M3bJaV"
