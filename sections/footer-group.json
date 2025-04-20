@@ -14,15 +14,41 @@
     "footer-main": {
       "type": "footer-main",
       "blocks": {
-        "social": {
-          "type": "social",
+        "image_QXR9fH": {
+          "type": "image",
           "settings": {
-            "social_title": ""
+            "image": "shopify://shop_images/Greens-logo-mainpage---header-v2.png",
+            "link": "",
+            "title": ""
+          }
+        },
+        "menu_gdN7fD": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Quick links",
+            "footer_linklist": "footer"
+          }
+        },
+        "menu_pL3JpH": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Quick links",
+            "footer_linklist": "footer"
+          }
+        },
+        "newsletter_WRGdtz": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_title": "Get notified of new innovations:",
+            "footer_newsletter_description": ""
           }
         }
       },
       "block_order": [
-        "social"
+        "image_QXR9fH",
+        "menu_gdN7fD",
+        "menu_pL3JpH",
+        "newsletter_WRGdtz"
       ],
       "settings": {
         "alignment": "left"
@@ -32,10 +58,10 @@
       "type": "footer-bottom",
       "settings": {
         "show_methods_of_payment": true,
-        "center_content_on_desktop": true,
+        "center_content_on_desktop": false,
         "footer_text": "",
         "show_currency_selector": true,
-        "show_locale_selector": false
+        "show_locale_selector": true
       }
     }
   },
