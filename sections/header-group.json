@@ -18,8 +18,8 @@
           "type": "announcement",
           "settings": {
             "announcement_text": "Announce something here",
-            "announcement_bg_color": "#eaeae8",
-            "announcement_text_color": "#526050"
+            "announcement_bg_color": "#000000",
+            "announcement_text_color": "#ffffff"
           }
         }
       },
