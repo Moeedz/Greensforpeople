@@ -17,8 +17,8 @@
         "00-announcement": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "<strong>Free shipping above €60</strong>",
-            "announcement_bg_color": "#fff",
+            "announcement_text": "Free shipping above €60",
+            "announcement_bg_color": "#ffffff",
             "announcement_text_color": "#323131"
           }
         }
