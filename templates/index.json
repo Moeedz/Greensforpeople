@@ -94,10 +94,10 @@
       ],
       "settings": {
         "insert_css_class_target": "",
-        "text_size": 14,
+        "text_size": 16,
         "ss_font_family": "montserrat_n4",
         "link": "",
-        "animation_duration": 10,
+        "animation_duration": 86,
         "animation_direction": "right",
         "pause_hover": false,
         "bg": "#526050",
