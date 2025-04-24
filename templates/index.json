@@ -54,19 +54,40 @@
         "text_RfyQAE": {
           "type": "text",
           "settings": {
-            "text": "Free Shipping"
+            "text": "Organic"
           }
         },
         "text_9jw6cY": {
           "type": "text",
           "settings": {
-            "text": "Free Returns"
+            "text": "Clean"
+          }
+        },
+        "text_aRWndk": {
+          "type": "text",
+          "settings": {
+            "text": "Sustainable"
+          }
+        },
+        "text_w4bTmd": {
+          "type": "text",
+          "settings": {
+            "text": "Recyclable"
+          }
+        },
+        "text_63AxGQ": {
+          "type": "text",
+          "settings": {
+            "text": "Responsible"
           }
         }
       },
       "block_order": [
         "text_RfyQAE",
-        "text_9jw6cY"
+        "text_9jw6cY",
+        "text_aRWndk",
+        "text_w4bTmd",
+        "text_63AxGQ"
       ],
       "custom_css": [
         ".announcement-bar__link {padding-left: 0 !important; padding-right: 0 !important;}"
