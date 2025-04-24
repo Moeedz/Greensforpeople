@@ -52,7 +52,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 768px) {.image-bar__item {display: flex !important; } .image-bar__item img {max-width: 200px !important; }}",
-        "footer * {font-family: \"Font-1745127504057\" !important;}"
+        "footer * {font-family: \"Font-1745127504057\" !important;}",
+        "@media screen and (max-width: 768px) {.image-bar__item img {max-width: 170px !important; }}"
       ],
       "settings": {
         "alignment": "left"
