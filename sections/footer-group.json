@@ -22,6 +22,13 @@
             "title": ""
           }
         },
+        "newsletter_WRGdtz": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_title": "Get notified of new innovations:",
+            "footer_newsletter_description": ""
+          }
+        },
         "menu_gdN7fD": {
           "type": "menu",
           "settings": {
@@ -35,20 +42,13 @@
             "menu_title": "Customer Care",
             "footer_linklist": "customer-care"
           }
-        },
-        "newsletter_WRGdtz": {
-          "type": "newsletter",
-          "settings": {
-            "newsletter_title": "Get notified of new innovations:",
-            "footer_newsletter_description": ""
-          }
         }
       },
       "block_order": [
         "image_QXR9fH",
+        "newsletter_WRGdtz",
         "menu_gdN7fD",
-        "menu_pL3JpH",
-        "newsletter_WRGdtz"
+        "menu_pL3JpH"
       ],
       "custom_css": [
         "@media screen and (min-width: 768px) {.image-bar__item {display: flex !important; } .image-bar__item img {max-width: 200px !important; }}",
