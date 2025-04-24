@@ -32,8 +32,8 @@
         "menu_pL3JpH": {
           "type": "menu",
           "settings": {
-            "menu_title": "Quick links",
-            "footer_linklist": "footer"
+            "menu_title": "Customer Care",
+            "footer_linklist": "customer-care"
           }
         },
         "newsletter_WRGdtz": {
@@ -52,7 +52,7 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 768px) {.image-bar__item {display: flex !important; } .image-bar__item img {max-width: 250px !important; }}",
-        "footer * {font-family: 'Font-1745127504057' !important;}"
+        "footer * {font-family: \"Font-1745127504057\" !important;}"
       ],
       "settings": {
         "alignment": "left"
