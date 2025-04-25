@@ -68,7 +68,7 @@
     "pop-up-text-description-text": "<p>Become part of our community and receive new innovations, tips and offers.</p>",
     "popup--show-social-icons": true,
     "desktop-popup-style": "slide-up",
-    "pop-up-delay": 10,
+    "pop-up-delay": 15,
     "popup--test-mode": false,
     "enable_verification_popup": false,
     "verification-pop-up__test-mode": false,
