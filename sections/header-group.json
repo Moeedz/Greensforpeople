@@ -17,7 +17,7 @@
         "00-announcement": {
           "type": "announcement",
           "settings": {
-            "announcement_text": "Free shipping above €60",
+            "announcement_text": "Free shipping on orders above €60 in NL/DE/BE",
             "announcement_bg_color": "#ffffff",
             "announcement_text_color": "#323131"
           }
