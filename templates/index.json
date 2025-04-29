@@ -426,9 +426,7 @@
     },
     "image_image_with_text_MbTijH": {
       "type": "image--image-with-text",
-      "custom_css": [
-        ".img {padding-top: 50px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "colors": "white",
         "image": "shopify://shop_images/all-website-baners-certifications-5.png",
