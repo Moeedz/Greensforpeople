@@ -15,7 +15,8 @@
         "image_picker_H8nqCy": {
           "type": "image_picker",
           "settings": {
-            "image_title": "",
+            "sidebar_image": "shopify://shop_images/DSC1287-min.jpg",
+            "image_title": "Joris Groeneveld - Founder Greens",
             "image_link": ""
           }
         }
