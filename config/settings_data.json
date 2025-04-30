@@ -61,6 +61,7 @@
     "hover-effect": true,
     "show_badges": true,
     "product_card_text_alignment": "left",
+    "back_to_top_homepage": true,
     "sm_instagram_link": "",
     "enable_breadcrumbs": false,
     "popup--enable": true,
