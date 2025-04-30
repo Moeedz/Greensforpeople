@@ -12,12 +12,69 @@
     "main": {
       "type": "template--page",
       "settings": {
-        "page_title_enabled": true,
+        "page_title_enabled": false,
         "page_width": "full-width"
+      }
+    },
+    "section_contact_form_84VBiB": {
+      "type": "section--contact-form",
+      "blocks": {
+        "name_input_JYKFRM": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "custom_input_pnGgYf": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "Instagram",
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "custom_input_66P7z6": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "Tiktok",
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "email_input_CE4ckh": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "message_input_dkRWwW": {
+          "type": "message_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "name_input_JYKFRM",
+        "custom_input_pnGgYf",
+        "custom_input_66P7z6",
+        "email_input_CE4ckh",
+        "message_input_dkRWwW"
+      ],
+      "name": "t:sections.section--contact-form.presets.name",
+      "settings": {
+        "section_color_scheme": "white",
+        "form_width": "narrow",
+        "form_title": "Affiliate program",
+        "form_description": "<p>You’ve got reach. We’ve got skincare that actually works. If you follow our mission and want to earn while promoting real, no-nonsense products—this is your shot.<br/><br/>1. Sign up. <br/>2. Get your unique link.<br/>3. Start earning commission on every sale you drive.<br/><br/></p>"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_contact_form_84VBiB"
   ]
 }
