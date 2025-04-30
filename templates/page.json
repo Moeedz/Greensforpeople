@@ -11,19 +11,6 @@
   "sections": {
     "main": {
       "type": "template--page",
-      "blocks": {
-        "image_picker_H8nqCy": {
-          "type": "image_picker",
-          "settings": {
-            "sidebar_image": "shopify://shop_images/DSC1287-min.jpg",
-            "image_title": "Joris Groeneveld - Founder Greens",
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_picker_H8nqCy"
-      ],
       "settings": {
         "page_title_enabled": true,
         "page_width": "full-width"
