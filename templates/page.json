@@ -64,6 +64,7 @@
         "email_input_CE4ckh",
         "message_input_dkRWwW"
       ],
+      "disabled": true,
       "name": "t:sections.section--contact-form.presets.name",
       "settings": {
         "section_color_scheme": "white",
