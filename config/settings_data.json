@@ -55,7 +55,7 @@
     "label_font_case": "lowercase",
     "label_spacing": 0,
     "logo_font_size": 18,
-    "ajax_cart_method": "added",
+    "ajax_cart_method": "drawer",
     "giftwrap_gift_note": true,
     "product-grid": "natural",
     "hover-effect": true,
