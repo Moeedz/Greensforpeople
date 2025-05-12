@@ -1,0 +1,101 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": false,
+        "page_width": "full-width"
+      }
+    },
+    "1747084952cac17d54": {
+      "type": "apps",
+      "blocks": {
+        "sk_form_builder_form_8d3ktr": {
+          "type": "shopify://apps/sk-form-builder/blocks/form/f3e35b58-5874-4ef2-8e03-c92cda6e49eb",
+          "settings": {
+            "show_form": true,
+            "form_token": "72683638436a4632"
+          }
+        }
+      },
+      "block_order": [
+        "sk_form_builder_form_8d3ktr"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "section_contact_form_84VBiB": {
+      "type": "section--contact-form",
+      "blocks": {
+        "name_input_JYKFRM": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "custom_input_pnGgYf": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "Instagram",
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "custom_input_66P7z6": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "Tiktok",
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "email_input_CE4ckh": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "message_input_dkRWwW": {
+          "type": "message_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "name_input_JYKFRM",
+        "custom_input_pnGgYf",
+        "custom_input_66P7z6",
+        "email_input_CE4ckh",
+        "message_input_dkRWwW"
+      ],
+      "disabled": true,
+      "name": "t:sections.section--contact-form.presets.name",
+      "settings": {
+        "section_color_scheme": "white",
+        "form_width": "narrow",
+        "form_title": "Affiliate program",
+        "form_description": "<p>You’ve got reach. <br/><br/>We’ve got skincare that actually works. <br/><br/>If you <strong>follow our mission</strong> and <strong>want to earn</strong> <strong>while promoting</strong> real, no-nonsense products—<strong>this is your shot</strong>.<br/><br/><strong>1</strong>. Sign up.<br/><strong>2</strong>. We carefully select who we work with to make sure it’s the right fit—for both sides.<br/><strong>3</strong>. Get your unique link.<br/><strong>4</strong>. Start earning commission on every sale you drive.<br/><br/>Think you’ve got what it takes? <strong>Apply below</strong>.</p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1747084952cac17d54",
+    "section_contact_form_84VBiB"
+  ]
+}
