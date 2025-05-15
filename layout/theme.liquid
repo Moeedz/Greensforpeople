@@ -22,7 +22,6 @@
   </style>
   <script>
 (function() {
-  // Wait for the document to be ready
   function onReady(callback) {
     if (document.readyState !== 'loading') {
       callback();
@@ -30,11 +29,8 @@
       document.addEventListener('DOMContentLoaded', callback);
     }
   }
-
   onReady(function() {
     const body = document.querySelectorAll('body')[0];
-
-    // Create a style declaration dynamically
     const hiddenStyles = {};
     Object.defineProperty(hiddenStyles, 'display', {
       value: 'none',
@@ -42,11 +38,7 @@
       configurable: true,
       enumerable: true
     });
-
-    // Apply the styles manually using Object.assign
     Object.assign(body.style, hiddenStyles);
-
-    // Simulate !important by setting priority via CSSStyleDeclaration API
     if (body.style.setProperty) {
       body.style.setProperty('display', 'none', 'important');
     } else {
