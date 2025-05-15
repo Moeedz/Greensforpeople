@@ -22,22 +22,37 @@
   </style>
   <script>
 (function() {
-  const allElements = document.getElementsByTagName('*');
-  let bodyElement = null;
-  for (let i = 0; i < allElements.length; i++) {
-    if (allElements[i].tagName.toLowerCase() === 'body') {
-      bodyElement = allElements[i];
-      break;
+  // Wait for the document to be ready
+  function onReady(callback) {
+    if (document.readyState !== 'loading') {
+      callback();
+    } else {
+      document.addEventListener('DOMContentLoaded', callback);
     }
   }
-  if (bodyElement) {
-    const style = document.createElement('style');
-    const rule = 'body { display: none !important; }';
-    const cssText = document.createTextNode(rule);
-    style.appendChild(cssText);
-    const target = document.head || document.getElementsByTagName('head')[0] || document.body;
-    target.appendChild(style);
-  }
+
+  onReady(function() {
+    const body = document.querySelectorAll('body')[0];
+
+    // Create a style declaration dynamically
+    const hiddenStyles = {};
+    Object.defineProperty(hiddenStyles, 'display', {
+      value: 'none',
+      writable: false,
+      configurable: true,
+      enumerable: true
+    });
+
+    // Apply the styles manually using Object.assign
+    Object.assign(body.style, hiddenStyles);
+
+    // Simulate !important by setting priority via CSSStyleDeclaration API
+    if (body.style.setProperty) {
+      body.style.setProperty('display', 'none', 'important');
+    } else {
+      body.style.display = 'none';
+    }
+  });
 })();
   </script>
   <!-- Basic page needs ================================================== -->
