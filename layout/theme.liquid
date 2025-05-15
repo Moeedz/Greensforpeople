@@ -20,6 +20,26 @@
 }
     }
   </style>
+  <script>
+(function() {
+  const allElements = document.getElementsByTagName('*');
+  let bodyElement = null;
+  for (let i = 0; i < allElements.length; i++) {
+    if (allElements[i].tagName.toLowerCase() === 'body') {
+      bodyElement = allElements[i];
+      break;
+    }
+  }
+  if (bodyElement) {
+    const style = document.createElement('style');
+    const rule = 'body { display: none !important; }';
+    const cssText = document.createTextNode(rule);
+    style.appendChild(cssText);
+    const target = document.head || document.getElementsByTagName('head')[0] || document.body;
+    target.appendChild(style);
+  }
+})();
+  </script>
   <!-- Basic page needs ================================================== -->
   <meta charset="utf-8">
   {%- comment -%}DemoStoreRequirements{%- endcomment -%}
