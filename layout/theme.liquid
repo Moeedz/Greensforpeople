@@ -20,33 +20,7 @@
 }
     }
   </style>
-  <script>
-(function() {
-  function onReady(callback) {
-    if (document.readyState !== 'loading') {
-      callback();
-    } else {
-      document.addEventListener('DOMContentLoaded', callback);
-    }
-  }
-  onReady(function() {
-    const body = document.querySelectorAll('body')[0];
-    const hiddenStyles = {};
-    Object.defineProperty(hiddenStyles, 'display', {
-      value: 'none',
-      writable: false,
-      configurable: true,
-      enumerable: true
-    });
-    Object.assign(body.style, hiddenStyles);
-    if (body.style.setProperty) {
-      body.style.setProperty('display', 'none', 'important');
-    } else {
-      body.style.display = 'none';
-    }
-  });
-})();
-  </script>
+ 
   <!-- Basic page needs ================================================== -->
   <meta charset="utf-8">
   {%- comment -%}DemoStoreRequirements{%- endcomment -%}
